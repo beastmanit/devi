@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <style>
+            .card{
+                height: 400px;
+                width: 1000px;
+                border: 2px black solid;
+                position: absolute;
+                left: 400px;
+                top: 250px;
+                background-image: linear-gradient(aliceblue,cadetblue,hotpink,lemonchiffon,papayawhip,lightblue);
+                animation: dance infinite;
+            }
+            @keyframes dance{
+                0%{transform: rotate(0deg);}
+                0%{transform: rotate(45deg);}
+                0%{transform: rotate(-45deg);}
+            }
+            h1{
+                text-align: center;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 60px;
+            }
+            p{
+                font-size: 30px;
+                font-family:roboto;
+                text-transform: capitalize;
+                text-align: center;
+            }
+            .sig{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            body{
+                background-color: bisque;
+            }
+            .nice{
+    width:100%;
+    text-align: center;
+    
+    
+    }
+    .done{
+    display: inline-block;
+    }
+    .ok{
+    display: inline-block;
+    padding-left: 1200px;
+    }
+    
+    .butto {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 4px solid palevioletred;
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 280px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+    }
+    
+    .butto span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    
+    .butto span:after {
+    content: '\00ab'; /* Change the content to point left */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px; /* Adjust left positioning */
+    transition: 0.5s;
+    }
+    
+    .butto:hover span {
+    padding-left: 25px; /* Adjust padding left */
+    }
+    
+    .butto:hover span:after {
+    opacity: 1;
+    left: 0; /* Adjust left positioning */
+    }
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>ONE FREEEE PASSSS</h1> 
+            <p>u told me to buy u something of ur own choice so this pass is so that whatever u like i will buy(no price limit) :)</p>
+            <div class="sig">
+            <p>signature (fabiola) <br><br>_____________</p>
+            <p>signature (devi)<br><br> _____________</p>
+         </div>
+         <br>
+         <div class="nice">
+            <div class="done"><button class="butto" style="vertical-align:middle" ><span><a href="mystery.html"> previous page</a></span></button></div>
+        </div>
+    </body>
+</html>

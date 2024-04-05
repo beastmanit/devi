@@ -1,0 +1,34 @@
+img{
+    height: 700px;
+    width: 500px;
+    transition: transform .8s ease-in-out ;
+    border-radius: 50px;
+   object-fit: cover;
+}
+body{
+    background-color: black;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow:1px 1px 2px burlywood, 0 0 25px bisque, 0 0 5px chocolate;
+}
+img:hover{
+    
+       border:4px bisque solid ;
+}
+.u{
+    float: right;
+    margin-right: 100px;
+}
+.m{
+    margin-left: 100px;
+}
+.m:hover{
+    transform: rotate(360deg)
+      scale(1.2);
+}
+.u:hover{
+    transform: rotate(-360deg)
+      scale(1.2);
+}

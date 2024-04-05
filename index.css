@@ -1,0 +1,53 @@
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 4px solid white;
+    text-shadow: pink 4px 4px 4px, pink 4px 4px 4px, pink 4px 4px 4px ;
+    color: white;
+    box-shadow: pink 4px 4px 4px, pink 4px 4px 4px, pink 4px 4px 4px ;
+    cursor: pointer;
+    overflow: hidden;
+    outline: black;
+    text-transform: capitalize;
+    font-size: 30px;
+    position: absolute; /* Position the button absolutely */
+    bottom: 90px; /* Distance from the bottom */
+    left: 100px; /* Distance from the right */
+}
+a{
+    text-decoration: none;
+}
+body {
+    background-image: url("https://images8.alphacoders.com/133/1337526.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; /* Required for absolute positioning */
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Ensure body fills the viewport height */
+}
+p{
+    text-shadow: pink 4px 4px 4px, pink 4px 4px 4px, pink 4px 4px 4px ;
+    color: white;
+    overflow: hidden;
+    outline: black;
+    text-transform: capitalize;
+    font-size: 50px;
+    position: absolute; /* Position the button absolutely */
+    bottom: 150px; /* Distance from the bottom */
+    left: 100px; /* Distance from the right */
+}
+h1{
+    text-shadow: pink 4px 4px 4px, pink 4px 4px 4px, pink 4px 4px 4px ;
+    color: white;
+    overflow: hidden;
+    outline: black;
+    text-transform: capitalize;
+    font-size: 110px;
+    position: absolute; /* Position the button absolutely */
+    bottom: 300px; /* Distance from the bottom */
+    left: 100px; /* Distance from the right */
+}
+div{
+    border: 2px solid black;
+    
+}

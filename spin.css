@@ -1,0 +1,91 @@
+.spinner{
+    height: 150px;
+    width: 150px;
+    border: 20px solid #ccc;
+    border-top-color:#007bff ;
+    animation:spin 1s linear infinite ;
+    border-radius: 1000px;
+    position: absolute;
+    left: 850px;
+    ;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+body{
+    text-transform: capitalize;
+    background-color:thistle;
+}
+h1{
+    font-size: 70px; 
+    text-align: center;
+
+}
+p{
+    font-size: 40px;
+    text-align: center;
+}
+
+.nice{
+    width:100%;
+    text-align: center;
+    
+    
+    }
+    .done{
+    display: inline-block;
+    }
+    .ok{
+    display: inline-block;
+    padding-left: 1200px;
+    }
+    
+    .butto {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 4px solid palevioletred;
+    color: red;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 280px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    }
+    
+    .butto span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+    
+    .butto span:after {
+    content: '\00ab'; /* Change the content to point left */
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px; /* Adjust left positioning */
+    transition: 0.5s;
+    }
+    
+    .butto:hover span {
+    padding-left: 25px; /* Adjust padding left */
+    }
+    
+    .butto:hover span:after {
+    opacity: 1;
+    left: 0; /* Adjust left positioning */
+    }
+    a{
+        text-decoration: none;
+        text-transform: capitalize;
+
+    }

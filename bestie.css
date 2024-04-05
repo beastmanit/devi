@@ -1,0 +1,75 @@
+body{
+    background-color:bisque ;
+}
+img{
+    height: 500;
+    width: 500;
+    transition: transform .2s;
+    border-radius: 300px;
+    object-fit: cover;
+    cursor: pointer;
+}
+img:hover{
+    transform:scale(1.2) ;
+}
+.glow {
+font-size: 80px;
+color: #fff;
+text-align: center;
+animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+from {
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+to {
+text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+
+.done{
+    margin-left: 100px;
+}
+.ok{
+    float: right;
+    margin-right: 100px;
+}
+.ua{
+    text-align: right;
+    margin-right: 200px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.uaa{
+    text-align: right;
+    margin-right: 40px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.ye,.yee{
+    text-indent: 100px;
+    font-size: 35px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    font-style: italic;
+}
+div{
+    text-transform: capitalize;
+}
+.ik{
+    margin-left: 335px;
+
+}
+.uk{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 350px;
+    font-weight: bold;
+}

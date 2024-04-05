@@ -1,0 +1,87 @@
+<html>
+    <heaD>
+    <style>
+        body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.gift-box {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.lid {
+  width: 0;
+  height: 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-bottom: 50px solid #e74c3c; /* Red color */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.content {
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.bottom {
+  width: 100%;
+  height: 100px;
+  background-color: #e74c3c; /* Red color */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: transform 0.5s;
+}
+
+.gift-box:hover .lid {
+  transform: translateY(-50px);
+}
+
+.gift-box:hover ,.content {
+  opacity: 1;
+}
+
+.gift-box:hover .bottom {
+  transform: translateY(50px);
+}
+
+    </style>
+</heaD>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hovering Gift Box</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <div class="gift-box">
+        <div class="lid">
+          <div class="content">Surprise!</div>
+        </div>
+        <div class="bottom"></div>
+      </div>
+    </body>
+    </html>
+    
+</body>
+</html>

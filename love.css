@@ -1,0 +1,51 @@
+img{
+
+    transition: transform .2s ease-in-out;
+}
+img:hover{
+    transform: rotate(30deg) scale(1.2);
+}
+.login{
+    display: flex;
+            flex-direction:column;
+            align-items: center;
+           filter: blur(0px);
+            justify-content: center;
+            height: 800px;
+            margin-top: 40px;
+}
+.box{
+    height: 600px;
+    width: 400px;
+    border: 2px solid black;
+}
+body{
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN6bX7PLVRuY9RSvLl2roObBtUEbmNPrjQEgSe-HsLIfcszD48NrVGpSmDI0lpdbwWOoN3D9qFf9ifkREmxyhUY0rwcU38ICVUzBCIykzGKvJOkG0wwq456EIXoM_v_n1Q7uVCefmfwsli4n6YknyoPiJZBhOluBmCx_927mT3ruFngx0vTRTXk4ybgg/w640-h360-rw/beeautiful-sunset-illustration-1212023.png");
+    background-repeat: none;
+    background-size: cover;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: whitesmoke;
+}
+input{
+    height: 25px;
+    width: 400px;
+    
+}
+p{
+    font-size: 40px;
+    color: whitesmoke;
+}
+button{
+    margin-left: 75px;
+    padding-left:100px ;
+    padding-right: 100px;
+    padding-top: 15px; ;
+    padding-bottom: 15px;
+    background-color: black;
+    color: whitesmoke;
+}
